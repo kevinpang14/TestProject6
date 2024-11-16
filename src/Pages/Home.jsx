@@ -9,6 +9,7 @@ import SectionContact from "../Components/SectionContact";
 import SectionBlog from "../Components/SectionBlog";
 import SectionBanner from "../Components/SectionBanner";
 import SectionPortFolio from "../Components/SectionPortfolio";
+import SectionTitle from "../Components/SectionTitle";
 
 const Home = () => {
   return (
