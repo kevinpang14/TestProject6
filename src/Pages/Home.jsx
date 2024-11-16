@@ -9,6 +9,7 @@ import SectionContact from "../Components/SectionContact";
 import SectionBlog from "../Components/SectionBlog";
 import SectionBanner from "../Components/SectionBanner";
 import SectionPortFolio from "../Components/SectionPortfolio";
+import SectionTestimonial from "../Components/SectionTestimonial";
 
 const Home = () => {
   return (
@@ -36,6 +37,10 @@ const Home = () => {
       {/* Leader section START */}
       <SectionLeader />
       {/* Leader section END */}
+
+      {/* Testimonial Section Start */}
+      <SectionTestimonial />
+      {/* Testimonial Section End */}
 
       {/* Contact Section Start */}
       <SectionContact />

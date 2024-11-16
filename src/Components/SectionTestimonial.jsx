@@ -5,6 +5,8 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import "swiper/css"; // Import only the basic Swiper styles
 import "swiper/css/pagination"; // Optional: for pagination
 import "swiper/css/navigation"; // Optional: for navigation (arrows)
+// EMBLA CAROUSEL
+import useEmblaCarousel from "embla-carousel-react";
 
 import Elipse4 from "../assets/img/Ellipse4.jpg";
 import Elipse41 from "../assets/img/Ellipse4-1.jpg";
@@ -44,6 +46,8 @@ const testimonials = [
 ];
 
 const TestimonialSection = () => {
+  // EMBLA CAROUSEL
+  const [emblaRef] = useEmblaCarousel();
   return (
     <section className="py-16 bg-gray-100">
       <div className="container mx-auto text-center px-4">
@@ -52,6 +56,13 @@ const TestimonialSection = () => {
           sectionTitle="Testimonial"
           position="center"
         />
+        <div className="embla" ref={emblaRef}>
+          <div className="embla__container">
+            <div className="embla__slide">Slide 1</div>
+            <div className="embla__slide">Slide 2</div>
+            <div className="embla__slide">Slide 3</div>
+          </div>
+        </div>
         <Swiper
           modules={[Pagination]} // Enable pagination modules
           spaceBetween={30} // Space between slides
