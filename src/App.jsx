@@ -8,8 +8,6 @@ import Portfolio from "./Pages/Portfolio";
 import Services from "./Pages/Services";
 import Blogs from "./Pages/Blogs";
 import Footer from "./Layouts/Footer";
-import BlogDetail from "./Pages/BlogDetail";
-import TestimonialSection from "./Components/SectionTestimonial";
 
 function App() {
   return (
@@ -23,10 +21,8 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/service" element={<Services />} />
           <Route path="/blog" element={<Blogs />} />
-          <Route path="/blogdetail" element={<BlogDetail />} />
-          <Route path="/testimonial" element={<TestimonialSection />} />
         </Routes>
-        <Footer />
+      <Footer />
       </Router>
     </>
   );
