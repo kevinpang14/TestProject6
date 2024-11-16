@@ -1,14 +1,14 @@
-import React from 'react';
-import SectionHome from '../Components/SectionHome';
-import SectionAbout from '../Components/SectionAbout';
-import SectionPlaning from '../Components/SectionPlaning';
-import SectionWhatWeDo from '../Components/sectionWhatWeDo';
-import SectionService from '../Components/SectionService';
-import SectionLeader from '../Components/SectionLeader';
-import SectionContact from '../Components/SectionContact';
-import SectionBlog from '../Components/SectionBlog';
-import SectionBanner from '../Components/SectionBanner';
-import SectionPortFolio from '../Components/SectionPortfolio';
+import React from "react";
+import SectionHome from "../Components/SectionHome";
+import SectionAbout from "../Components/SectionAbout";
+import SectionPlaning from "../Components/SectionPlaning";
+import SectionWhatWeDo from "../Components/SectionWhatWeDo";
+import SectionService from "../Components/SectionService";
+import SectionLeader from "../Components/SectionLeader";
+import SectionContact from "../Components/SectionContact";
+import SectionBlog from "../Components/SectionBlog";
+import SectionBanner from "../Components/SectionBanner";
+import SectionPortFolio from "../Components/SectionPortfolio";
 
 const Home = () => {
   return (
